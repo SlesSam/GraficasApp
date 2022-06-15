@@ -1,0 +1,20 @@
+<!-- <ngx-charts-legend></ngx-charts-legend>
+ -->
+ <h1>Grafica de barras</h1>
+<div class="container">
+ <ngx-charts-bar-vertical
+  [view]="view"
+  
+  [results]="data"
+  [gradient]="gradient"
+  [xAxis]="showXAxis"
+  [yAxis]="showYAxis"
+  [legend]="showLegend"
+  [showXAxisLabel]="showXAxisLabel"
+  [showYAxisLabel]="showYAxisLabel"
+  [xAxisLabel]="xAxisLabel"
+  [yAxisLabel]="yAxisLabel"
+  (select)="onSelect($event)">
+</ngx-charts-bar-vertical>
+
+</div>
